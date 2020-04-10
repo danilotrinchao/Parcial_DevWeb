@@ -1,0 +1,45 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Trabalho</title>
+    <meta name="description" content="Template HTML" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="biblioteca/jquery-2.2.4.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div class="sec-loggin">
+      <div class="engloba-loggin">
+        <div class="container">
+          <div class="central">
+            <h4 class="titulo">Loggin</h4>
+            <form>
+              <label>
+                <input type="text" id="nome" placeholder="Nome" />
+              </label>
+              <label>
+                <input type="text" id="cpf" placeholder="CPF" />
+              </label>
+              <label>
+                <input type="date" id="data" placeholder="Data de Nascimento" />
+              </label>
+              <label>
+                <input type="password" id="password" placeholder="Senha" />
+                <span class="mostrar-senha">Mostra</span>
+              </label>
+              <button class="mostrar-dados" type="submit">Enviar</button>
+            </form>
+
+            <div class="texto">
+              <h4>Seu nome é: <span id="exibe-nome"></span></h4>
+              <h5>Seu CPF é: <span id="exibe-cpf"></span></h5>
+              <h5>Sua data de nascimento é: <span id="exibe-data"></span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
